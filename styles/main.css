@@ -1461,7 +1461,11 @@ a.purple-link {
 }
 
       .main {
-        max-width: 80%;
+        max-width: 90%;
+      }
+    
+      body {
+        font-size: 14px;
       }
     
       .site-title {
