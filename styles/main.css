@@ -1477,6 +1477,12 @@ a.purple-link {
 .site-footer {
   display:none
 }
+.menu-container {
+  display:none
+}
+.menu-list {
+  display:none
+}
 .next-post {
   display:none
 }
