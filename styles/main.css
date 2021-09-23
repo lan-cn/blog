@@ -1468,19 +1468,16 @@ a.purple-link {
         font-size: 14px;
       }
     
-      .site-title {
-  display:none
+      .site-header-container {
+display:none
 }
-.site-header-container {
-  display:none
+.site-header .left .site-title {
+  font-size: 24px;
 }
 .site-footer {
   display:none
 }
-.menu-container {
-  display:none
-}
-.menu-list {
+.avatar {
   display:none
 }
 .next-post {
