@@ -1488,9 +1488,14 @@ a.purple-link {
   font-size: 13px;
 }
 .post .post-title {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: normal;
   position: relative;
   transition: all 0.382s;
+  font-size: 16px;
+}
+.post-item .content .post-title {
+  font-size: 17px;
+  color: #0C1E29;
 }
     
