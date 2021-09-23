@@ -1480,4 +1480,11 @@ a.purple-link {
 .next-post {
   display:none
 }
+.post-info a {
+  color: var(--c-base-black);
+}
+.post-info {
+  color: var(--c-base-black);
+  font-size: 13px;
+}
     
