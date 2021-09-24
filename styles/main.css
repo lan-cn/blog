@@ -1988,4 +1988,13 @@ code::-webkit-scrollbar-thumb:hover {
 .next-post  {
   display:none
 }
+.post-title {
+  font-size: 17px;
+  font-weight: bold;
+}
+.post-list-container .post-inner .post .post-left .post-title {
+  font-size: 17px;
+  font-weight: normal;
+  vertical-align: middle;
+}
     
