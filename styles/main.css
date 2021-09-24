@@ -1998,8 +1998,8 @@ code::-webkit-scrollbar-thumb:hover {
   vertical-align: middle;
 }
 .post-list-container .post-inner {
-  min-width: 100%;
-  max-width: 100%;
+  min-width: 90%;
+  max-width: 90%;
 }
 .gt-bg-accent-color-first {
     background: #000000!important; 
