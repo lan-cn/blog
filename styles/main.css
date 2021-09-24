@@ -1488,17 +1488,24 @@ display:none
 }
 .post-info {
   color: var(--c-base-black);
-  font-size: 13px;
+  font-size: 12px;
 }
 .post .post-title {
-  font-size: 17px;
-  font-weight: normal;
+  font-size: 16px;
+  font-weight: lighter;
   position: relative;
   transition: all 0.382s;
   font-size: 16px;
 }
 .post-item .content .post-title {
-  font-size: 16px;
+  font-size: 15px;
   color: #000000;
+}
+.post-content strong {
+  font-weight: bold;
+}
+.post-content a {
+  font-weight: 400;
+  background: linear-gradient(180deg, transparent 70%, rgba(101, 125, 225, 0.4) 0);
 }
     
