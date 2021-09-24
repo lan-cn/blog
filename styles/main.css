@@ -1997,4 +1997,8 @@ code::-webkit-scrollbar-thumb:hover {
   font-weight: normal;
   vertical-align: middle;
 }
+.post-list-container .post-inner {
+  min-width: 100%;
+  max-width: 100%;
+}
     
