@@ -2001,4 +2001,7 @@ code::-webkit-scrollbar-thumb:hover {
   min-width: 100%;
   max-width: 100%;
 }
+.gt-bg-accent-color-first {
+    background: #000000!important; 
+}
     
