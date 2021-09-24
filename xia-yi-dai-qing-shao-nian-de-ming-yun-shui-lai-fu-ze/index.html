@@ -1,148 +1,178 @@
-
-<!DOCTYPE html>
 <html>
-  <head>
-    
-<meta charset="utf-8" >
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <title>社论-下一代青少年的命运，谁来负责？ | 秋木小站</title>
-<meta name="description" content="&amp;nbsp;">
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+<link rel="shortcut icon" href="https://qiumu-blog.vercel.app/favicon.ico?v=1632445321632">
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://qiumu-blog.vercel.app/favicon.ico?v=1632444210398">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://qiumu-blog.vercel.app/styles/main.css">
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"> -->
+
+<style>
+    hr {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script> -->
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
 
 
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-
-
-  </head>
-  <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://qiumu-blog.vercel.app">
-        <img class="avatar" src="https://qiumu-blog.vercel.app/images/avatar.png?v=1632444210398" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://qiumu-blog.vercel.app">
-        <h1 class="site-title">秋木小站</h1>
-      </a>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            秋木小站
+        </div>
     </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
-        
-          <a href="/" class="menu purple-link">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="menu purple-link">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="menu purple-link">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="menu purple-link">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
-
-
-      <div class="content-container">
-        <div class="post-detail">
-          
-          <h2 class="post-title">社论-下一代青少年的命运，谁来负责？</h2>
-          <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2021-14</span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="changeNavbar">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
             
-          </div>
-          <div class="post-content">
-            <p>1951年，第一套中小学用教材出版，从而引出了贯穿中国现代教育的一种论调：读书方能成才。历经十年浩劫，1977年高考恢复，学生又有了接受高等教育的权利。九十年代末，受经济政策影响，我国开始尝试教育产业化。每一次教改，都有负责的人打头阵，负责的人收尾，产生不同的社会影响也在逐步推动我国教育行业的进步。近十年来，我国经济突飞猛进，能否及时地改革教育，直接决定了中国未来的国本是否牢靠，其不限于教育的内容，形式和其他方面的配合也非常重要。<br>
+            <div class="nav-item">
+                
+                <a href="/" class="menu gt-a-link">
+                    首页
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/archives" class="menu gt-a-link">
+                    归档
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/tags" class="menu gt-a-link">
+                    标签
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/post/about" class="menu gt-a-link">
+                    关于
+                </a>
+                
+            </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1632445321632"
+                action="/search/">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+<script>
+    /* 移动端导航栏展开/收起切换 */
+    document.getElementById('changeNavbar').onclick = () => {
+        var element = document.getElementById('navbarSupportedContent');
+        if (element.style.display === 'none' || element.style.display === '') {
+            element.style.display = 'block';
+        } else {
+            element.style.display = 'none';
+        }
+    }
+</script>
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    社论-下一代青少年的命运，谁来负责？
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2021-14 ·
+                    </time>
+                    
+                </div>
+                <div class="post-content">
+                    <p>1951年，第一套中小学用教材出版，从而引出了贯穿中国现代教育的一种论调：读书方能成才。历经十年浩劫，1977年高考恢复，学生又有了接受高等教育的权利。九十年代末，受经济政策影响，我国开始尝试教育产业化。每一次教改，都有负责的人打头阵，负责的人收尾，产生不同的社会影响也在逐步推动我国教育行业的进步。近十年来，我国经济突飞猛进，能否及时地改革教育，直接决定了中国未来的国本是否牢靠，其不限于教育的内容，形式和其他方面的配合也非常重要。<br>
 国家每一个动作都是有章可循的，但限于体制的运作速度，新政策出台和地方采用政策的速度，时效性和对已经存在的政策针对的对象的影响往往相反。今年六月份，国家公布了整顿课外教育培训的新政策，家长和课外教育任教的老师之间因供需产生的教育产业链因此断链，新东方股价因此下跌90%。之前的三公分班政策也无疑打击了相关人员的收入，类似这样的政策并未起实效，特权仍然能左右教育的公平，那么，教改到底出现了什么问题？青少年的命运，由谁来负责？<br>
 问题出在现在的教育环境上，这种教育环境导致国家的政策要么是用力过头，没有考虑下一步发展，要么是给上一种政策打补丁。打击课外教育就是一个例子，在推出政策以前，国家需要的是高知识水平的人才，当读书才是出路的思想固化，人人把读书中考高考当做教育的代表时，本来国家所需的就已经过剩了，建设国家需要的不只是知识分子，还需要低成本、高效率的人口资源，当农村的贫困学生第一次出村是为了考试而不是找工作，教育就变成了某种意义上的形式，考试、学习和接受更高等的教育成为了教育本身的目的，接受了高等教育后，开阔了眼界，同时家里人打工赚钱供着这样的人上大学，让本来需要忍受黑暗的人看到了光明，浪费的是家长的钱，多出来一个开阔了眼界的大学生。那么问题来了，既然出身决定得了未来的发展和起跑线，为什么要让起跑线已经落下别人很远的人去奋力追赶？浪费的是谁的时间？年轻人的时间。国家很明显看到了这点，打击课外教育，结合之前的减负、鼓励职业教育、增加在校学生体育运动时长、鼓励大中小学开设类实践活动等政策，不难看出这是一个方向大调整的一部分，代表教育的重心从知识转变为技能，也就是国家在通过减少普通知识占比来培养工人，也就是廉价劳动力、人口资源。这就是对一个用力过头的政策打的补丁。<br>
 那么，这样用力过头的政策产生了什么影响？催生了课外辅导、改变了社会基本的家庭结构，在教育的部分中拉高了家长的地位，这无疑是一种病态畸形的状态，家长的管理逐步让学生失去自控力和自我学习的能力，家长的需求让一部分水平不够的教育者接管了本来应该由义务教育负责的部分，这其中义务教育没有责任吗？又不得不引入上面说过的国家体系运行慢产生的一个并发症，政策在不同部分的执行也是不同的，减负到了教育基层，迫于上述环境压力，教材逐步简化，而教育内容，或者说需要教给学生的内容在增加，可以说义务教育在整个体系中处在可有可无的位置上，这就导致了家长需要课外班，学校老师也需要课外班来分担教育任务。教育的目的在中国从知识传递变成了筛选人口，现在又变质成了家长、学校、课外辅导三方对学生施加压力的一种形式，这让人感到担忧。<br>
 下一代青少年的命运，谁来负责？陈旧的思想和投机者应该承担责任，承担一系列新政策带来的阵痛。在新的时代自我革新思想要明确教育的目的，规范教育的方式，这些不应该在学生家长的思想已经被转化为读书是唯一出路之后进行，教育关乎国本，只有有序地推进。在该做好自己工作的时候没有做好，没有管理好，就是国家的问题，国家的无能，让现在教育环境的形成成了一场灾难。</p>
 
-          </div>
+                </div>
+            </article>
         </div>
 
         
-          <div class="next-post">
-            <a class="purple-link" href="https://qiumu-blog.vercel.app/tian-shi-di-li-gong-chan-dang-mei-you-ren-he">
-              <h3 class="post-title">
-                下一篇：政论-天时 地利 共产党没有人和
-              </h3>
-            </a>
-          </div>
-          
-      </div>
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://qiumu-blog.vercel.app/tian-shi-di-li-gong-chan-dang-mei-you-ren-he" class="post-title gt-a-link">
+                    政论-天时 地利 共产党没有人和
+                </a>
+            </div>
+        
 
-      
+        
 
-      <div class="site-footer">
-  <div class="slogan">&nbsp;</div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  &nbsp; | <a class="rss" href="https://qiumu-blog.vercel.app/atom.xml" target="_blank">RSS</a>
+        
+
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">&nbsp;</div>
+    <div class="social-container">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        &nbsp;
+    </div>
+    <div>
+        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://qiumu-blog.vercel.app/atom.xml" target="_blank">RSS</a></a>
+    </div>
 </div>
 
-
-    </div>
-    <script type="application/javascript">
-
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
+<script>
+  hljs.highlightAll()
 </script>
 
-
-
-
-  </body>
+    </div>
+</div>
+</body>
 </html>
