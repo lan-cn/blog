@@ -2004,4 +2004,8 @@ code::-webkit-scrollbar-thumb:hover {
 .gt-bg-accent-color-first {
     background: #000000!important; 
 }
+.post-list-container .post-inner .post {
+    margin: 2px 2px 2px 2px;
+    padding: 18px 22px 18px 22px;
+  }
     
