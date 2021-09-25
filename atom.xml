@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://qiumu-blog.vercel.app</id>
     <title>秋木小站</title>
-    <updated>2021-09-25T04:58:59.195Z</updated>
+    <updated>2021-09-25T05:00:29.436Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://qiumu-blog.vercel.app"/>
     <link rel="self" href="https://qiumu-blog.vercel.app/atom.xml"/>
@@ -11,7 +11,7 @@
     <icon>https://qiumu-blog.vercel.app/favicon.ico</icon>
     <rights>All rights reserved 2021, 秋木小站</rights>
     <entry>
-        <title type="html"><![CDATA[社论-教育中中国传统文化的去留]]></title>
+        <title type="html"><![CDATA[评论-教育中中国传统文化的去留]]></title>
         <id>https://qiumu-blog.vercel.app/jiao-yu-zhong-zhong-guo-chuan-tong-wen-hua-de-qu-liu</id>
         <link href="https://qiumu-blog.vercel.app/jiao-yu-zhong-zhong-guo-chuan-tong-wen-hua-de-qu-liu">
         </link>
@@ -24,7 +24,7 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[社论-下一代青少年的命运，谁来负责？]]></title>
+        <title type="html"><![CDATA[评论-下一代青少年的命运，谁来负责？]]></title>
         <id>https://qiumu-blog.vercel.app/xia-yi-dai-qing-shao-nian-de-ming-yun-shui-lai-fu-ze</id>
         <link href="https://qiumu-blog.vercel.app/xia-yi-dai-qing-shao-nian-de-ming-yun-shui-lai-fu-ze">
         </link>
@@ -37,7 +37,7 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[社论-美国的崩溃]]></title>
+        <title type="html"><![CDATA[评论-美国的崩溃]]></title>
         <id>https://qiumu-blog.vercel.app/mei-guo-de-beng-kui</id>
         <link href="https://qiumu-blog.vercel.app/mei-guo-de-beng-kui">
         </link>
