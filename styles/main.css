@@ -1985,6 +1985,9 @@ code::-webkit-scrollbar-thumb:hover {
 .site-footer  {
   display:none
 }
+.post-abstract  {
+  display:none
+}
 .next-post  {
   display:none
 }
