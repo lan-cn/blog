@@ -2011,4 +2011,7 @@ code::-webkit-scrollbar-thumb:hover {
     margin: 2px 2px 2px 2px;
     padding: 18px 22px 18px 22px;
   }
+.gt-c-content-color-first {
+    color: #000000!important;
+}
     
