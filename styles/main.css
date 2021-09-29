@@ -2011,10 +2011,25 @@ code::-webkit-scrollbar-thumb:hover {
     margin: 2px 2px 2px 2px;
     padding: 18px 22px 18px 22px;
   }
+body {
+    font-family: "PingFang SC", -apple-system, BlinkMacSystemFont, opensans, Optima, 'Microsoft Yahei', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0px;
+}
 .gt-c-content-color-first {
     color: #000000!important;
 }
 a {
     color: #000000!important;
+}
+html {
+    line-height: 1;
+    -webkit-text-size-adjust: 100%;
+}
+.post-list-container .post-inner .post {
+    transition: all 0s;
+}
+.post-list-container .post-inner .post:hover {
+  transform: scale(1);
 }
     
