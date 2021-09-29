@@ -2026,9 +2026,6 @@ html {
     line-height: 1;
     -webkit-text-size-adjust: 100%;
 }
-.post-list-container .post-inner .post {
-    transition: all 0s;
-}
 .post-list-container .post-inner .post:hover {
   transform: scale(1);
 }
