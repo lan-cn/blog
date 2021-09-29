@@ -2018,8 +2018,4 @@ code::-webkit-scrollbar-thumb:hover {
 a {
     color: #000000!important;
 }
-html {
-    line-height: 1;
-    -webkit-text-size-adjust: 100%;
-}
     
