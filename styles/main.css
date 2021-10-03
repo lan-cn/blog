@@ -2018,4 +2018,8 @@ code::-webkit-scrollbar-thumb:hover {
 a {
     color: #000000!important;
 }
+.pagination-container {
+    padding: 24px 32px 2px;
+    align-self: center;
+}
     
