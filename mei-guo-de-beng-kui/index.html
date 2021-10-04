@@ -1,123 +1,106 @@
-<html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+
 <head>
-    <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- 必要参数 -->
+<meta charset="utf-8" />
+<title>
+    评论-美国的崩溃-秋木 | 秋木
+</title>
+<meta name="keywords" content="关键词" />
+<meta name="description" content="简述" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable:no" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="shortcut icon" href="favicon.ico">
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/css/mdui.min.css" integrity="sha384-cLRrMq39HOZdvE0j6yBojO4+1PrHfB7a9l5qLcmRm/fiWXYY+CndJPmyu5FV/9Tw" crossorigin="anonymous" />
 
-<title>评论-美国的崩溃-秋木 | 秋木小站</title>
-
-<link rel="shortcut icon" href="https://qiumu-blog.vercel.app/favicon.ico?v=1633230801403">
-
-<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://qiumu-blog.vercel.app/styles/main.css">
-<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"> -->
-
+<!-- MDUI JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/js/mdui.min.js" integrity="sha384-gCMZcshYKOGRX9r6wbDrvF+TcCCswSHFucUzUPwka+Gr+uHgjlYvkABr95TCOz3A" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://qiumu-blog.vercel.app/media/css/modify.css">
 <style>
-    hr {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        border: 0;
-        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    .mdui-theme-accent-blue .mdui-typo a {
+        color: #ff4081;
+    }
+    
+    .mdui-theme-accent-blue .mdui-typo a::before {
+        background-color: #ff4081;
+    }
+    
+    .mdui-theme-accent-blue .mdui-color-theme-accent {
+        background-color: #ff4081!important;
+        color: #fff!important;
     }
 </style>
-
-<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
-
-<!-- <script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script> -->
-<!-- DEMO JS -->
-<!--<script src="media/scripts/index.js"></script>-->
-
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+        <link rel="stylesheet" href="https://qiumu-blog.vercel.app/media/css/github-gist.min.css">
+        <link rel="stylesheet" href="https://qiumu-blog.vercel.app/media/css/railscasts.min.css">
 </head>
-<body>
-<div class="main gt-bg-theme-color-first">
-    <nav class="navbar navbar-expand-lg">
-    <div class="navbar-brand">
-        <img class="user-avatar" src="/images/avatar.png" alt="头像">
-        <div class="site-name gt-c-content-color-first">
-            秋木小站
+
+<body id="post" class="mdui-appbar-with-toolbar mdui-theme-primary-blue-grey mdui-theme-accent-blue mdui-theme-layout-dark">
+    <header role="banner">
+    <div class="mdui-appbar mdui-appbar-fixed mdui-appbar-scroll-hide mdui-shadow-0">
+        <div class="mdui-toolbar">
+            <div class="mdui-toolbar-spacer"></div>
+            <button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '深色样式切换', position: 'left'}" id="DarkStyle"><i class="mdui-icon material-icons">brightness_4</i></button>
         </div>
     </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="changeNavbar">
-        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="navbar-nav mr-auto" style="text-align: center">
+</header>
+
+<nav id="drawer" class="mdui-drawer mdui-drawer-full-height mdui-drawer-close">
+    <ul class="mdui-list">
+        
             
-            <div class="nav-item">
-                
-                <a href="/" class="menu gt-a-link">
-                    首页
-                </a>
-                
-            </div>
-            
-            <div class="nav-item">
-                
-                <a href="/archives" class="menu gt-a-link">
-                    归档
-                </a>
-                
-            </div>
-            
-            <div class="nav-item">
-                
-                <a href="/tags" class="menu gt-a-link">
-                    标签
-                </a>
-                
-            </div>
-            
-            <div class="nav-item">
-                
-                <a href="/post/about" class="menu gt-a-link">
-                    关于
-                </a>
-                
-            </div>
-            
-        </div>
-        <div style="text-align: center">
-            <form id="gridea-search-form" style="position: relative" data-update="1633230801403"
-                action="/search/">
-                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
-                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
-            </form>
-        </div>
-    </div>
-</nav>
-<script>
-    /* 移动端导航栏展开/收起切换 */
-    document.getElementById('changeNavbar').onclick = () => {
-        var element = document.getElementById('navbarSupportedContent');
-        if (element.style.display === 'none' || element.style.display === '') {
-            element.style.display = 'block';
-        } else {
-            element.style.display = 'none';
-        }
-    }
-</script>
-    <div class="post-container">
-        <div class="post-detail gt-bg-theme-color-second">
-            <article class="gt-post-content">
-                <h2 class="post-title">
-                    评论-美国的崩溃-秋木
-                </h2>
-                <div class="post-info">
-                    <time class="post-time gt-c-content-color-first">
-                        · 2020 ·
-                    </time>
+                    <a href="/" class="menu">
+                        <li class="mdui-list-item mdui-ripple">
+                            首页
+                        </li>
+                    </a>
                     
-                </div>
-                <div class="post-content">
-                    <p>美国的崩溃，并非从当代开始的，也并非与它本身的制度体制无关，问题出在，它本身的现代化，科技化以及国际形象与地位，使这样一个本来就由低素质和有色人种构成的种族熔炉式国家难以维持住由外转污染生产业，以侵略战争，信息战争和经济战争为主要手段的盈利，二战结束后，从朝鲜战场到两伊战争，常规武器技术扩散化以及核技术的普及也使它很难在军事上维持绝对的统治地位，即使通过政治以及其他手段赢得战争，也很难使亏损与利益持平，之后若有其他力量从中作梗，非既得利益与其产生的效应化利益也很难被美国牢牢地掌握在手里，这样的局面是如何造成的？<br>
+                        
+            
+                    <a href="/archives" class="menu">
+                        <li class="mdui-list-item mdui-ripple">
+                            归档
+                        </li>
+                    </a>
+                    
+                        
+            
+                    <a href="/tags" class="menu">
+                        <li class="mdui-list-item mdui-ripple">
+                            标签
+                        </li>
+                    </a>
+                    
+                        
+            
+                    <a href="/post/about" class="menu">
+                        <li class="mdui-list-item mdui-ripple">
+                            关于
+                        </li>
+                    </a>
+                    
+                        
+                            <a href="https://github.com/CPlayer-CN/gridea-theme-cplayer-material" class="spread">
+                                <li class="mdui-list-item mdui-ripple">主题主页</li>
+                            </a>
+    </ul>
+</nav>
+
+        <main class="mdui-container mdui-typo mdui-m-t-2">
+            <section class="mdui-card">
+                
+                        <div class="mdui-card-primary">
+                            <div class="mdui-card-primary-title">
+                                评论-美国的崩溃-秋木
+                            </div>
+                            <div class="mdui-card-primary-subtitle">发布于
+                                2020
+                                    
+                            </div>
+                        </div>
+                        <div class="mdui-card-content">
+                            <p>美国的崩溃，并非从当代开始的，也并非与它本身的制度体制无关，问题出在，它本身的现代化，科技化以及国际形象与地位，使这样一个本来就由低素质和有色人种构成的种族熔炉式国家难以维持住由外转污染生产业，以侵略战争，信息战争和经济战争为主要手段的盈利，二战结束后，从朝鲜战场到两伊战争，常规武器技术扩散化以及核技术的普及也使它很难在军事上维持绝对的统治地位，即使通过政治以及其他手段赢得战争，也很难使亏损与利益持平，之后若有其他力量从中作梗，非既得利益与其产生的效应化利益也很难被美国牢牢地掌握在手里，这样的局面是如何造成的？<br>
 问题的一小部分出在美国的制度上，若先后选上为同一党派或同一政治利益为目标谋取利益的总统，前人为可以为后任打下基础，但如果前后总统目的不同，前人所为就在浪费大量的社会资源，这种浪费使政策难以跟进体制，基层难以履行政策，奥巴马医改就是一个活生生的例子。美国的社会团体和资本对于人民的直接控制在于债务，这样的政治花费又增加了一笔负担，资本间的角逐还体现在其他各个民生方面，民众则是承担这种角逐带来后果的冤大头。<br>
 美国的军事力量在世界范围内迄今为止仍是其他国家无可匹敌的，在核武器普遍化，常规武器装备技术普遍化的现代，想保持军事上的领先只能从规模和先进性找平衡，这就让美国的军费成了一笔天文数字，放眼长久，军队确立下的战略目标又需要大量的经费支持，无疑增加了社会负担。况且美国的军队直属于总统，和资本之间的角逐又发生了关系，产枪的、产药的都需要打起仗来，这样才能维持盈利，美国总统有权利开战，也就是说美国总统代表的一方利益有权利动用国家机器来为自己创造营收机会，打无用之仗，也增加了民众的负担。无论军队是打还是不打，动还是不动美国民众都不支持，在自己的国家美国军队都不被支持，将在外如何受君命？<br>
 对于一个超级霸权，若有另外一个实力水平相当于自己的霸权出现，各方面的威胁不会使它坐视不管，为了遏制另外一个强国的崛起，霸权会动用军事，政治，经济来加以打击，但像中俄这样舆论管理严格、军事实力逐步增强，经济底蕴深厚，政治手腕强劲的半封闭式国家，在美国已经进行经济军事上的交手后，中俄已经被美国变成了被加固的堡垒，之后若不发生核战争或者大规模战争，中国对美国的贸易差是美国不敢打破的。这样的情况对于美国来说就像是一个放在身边的有危险的定时炸弹，若中国有一天不再给美国供应各种日用品，各种以中国为最主要采购地的商品立刻消失在市面上，美国人民的日子不会好过，以单向经济为基础的共生关系，即使由利益驱使运行，要打破这样的关系，也要付出巨大的代价。<br>
@@ -125,56 +108,40 @@
 畸形的社会体制，不成形的社会福利政策，负债累累的人民，体制甚至难以维持自己的运行。<br>
 美国的政治经济问题已经积累许久，离崩溃只差临门一脚，亡秦者秦，在不远的将来，亡美国者也将会是美国自己。</p>
 
-                </div>
-            </article>
-        </div>
+                        </div>
 
-        
-            <div class="next-post">
-                <div class="next gt-c-content-color-first">下一篇</div>
-                <a href="https://qiumu-blog.vercel.app/kgZhSMgkP/" class="post-title gt-a-link">
-                    评论-假如中美开战中国将何去何从-秋木
-                </a>
-            </div>
-        
+            </section>
 
-        
+            
+        </main>
 
-        
+        <nav class="mdui-container mdui-m-t-2 mdui-m-b-2">
+            <a href="https://qiumu-blog.vercel.app/Z_ybqskjG/" mdui-tooltip="{content: '上一篇', position: 'right'}"><button class="mdui-btn mdui-btn-icon mdui-btn-dense mdui-color-theme-accent mdui-ripple mdui-m-r-1"><i class="mdui-icon material-icons">arrow_back</i></button>评论-意识形态斗争的预测-秋木</a>
+                
+                    
+                        <a href="https://qiumu-blog.vercel.app/kgZhSMgkP/" mdui-tooltip="{content: '下一篇', position: 'left'}" class="mdui-float-right">
+                            评论-假如中美开战中国将何去何从-秋木<button class="mdui-btn mdui-btn-icon mdui-btn-dense mdui-color-theme-accent mdui-ripple mdui-m-l-1"><i class="mdui-icon material-icons">arrow_forward</i></button></a>
+                        
+        </nav>
 
-        
-
-        <div class="site-footer gt-c-content-color-first">
-    <div class="slogan gt-c-content-color-first">&nbsp;</div>
-    <div class="social-container">
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-    </div>
-    <div class="footer-info">
-        &nbsp;
-    </div>
-    <div>
-        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
-                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://qiumu-blog.vercel.app/atom.xml" target="_blank">RSS</a></a>
-    </div>
+        <div class="mdui-m-t-2 mdui-text-center mdui-typo">
+    &nbsp;
 </div>
 
-<script>
-  hljs.highlightAll()
-</script>
+<script src="https://qiumu-blog.vercel.app/media/js/jquery.min.js"></script>
+<script src="https://qiumu-blog.vercel.app/media/js/mdui.min.js"></script>
+<script src="https://qiumu-blog.vercel.app/media/js/modify.js"></script>
+            <script src="https://qiumu-blog.vercel.app/media/js/highlight.min.js"></script>
+            <script src="https://qiumu-blog.vercel.app/media/js/lightense.min.js"></script>
+            <script>
+                // 初始化-高亮代码
+                hljs.initHighlightingOnLoad();
+                // 初始化-文章图片放大
+                window.addEventListener('load', function() {
+                    Lightense('#post .mdui-card-content img');
+                }, false);
+            </script>
 
-    </div>
-</div>
 </body>
+
 </html>

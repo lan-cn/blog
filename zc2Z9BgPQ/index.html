@@ -1,123 +1,106 @@
-<html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+
 <head>
-    <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- 必要参数 -->
+<meta charset="utf-8" />
+<title>
+    分享-戒色笔记与思考-未知 | 秋木
+</title>
+<meta name="keywords" content="关键词" />
+<meta name="description" content="简述" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable:no" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="shortcut icon" href="favicon.ico">
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/css/mdui.min.css" integrity="sha384-cLRrMq39HOZdvE0j6yBojO4+1PrHfB7a9l5qLcmRm/fiWXYY+CndJPmyu5FV/9Tw" crossorigin="anonymous" />
 
-<title>分享-戒色笔记与思考-未知 | 秋木小站</title>
-
-<link rel="shortcut icon" href="https://qiumu-blog.vercel.app/favicon.ico?v=1633230801403">
-
-<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://qiumu-blog.vercel.app/styles/main.css">
-<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"> -->
-
+<!-- MDUI JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/js/mdui.min.js" integrity="sha384-gCMZcshYKOGRX9r6wbDrvF+TcCCswSHFucUzUPwka+Gr+uHgjlYvkABr95TCOz3A" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://qiumu-blog.vercel.app/media/css/modify.css">
 <style>
-    hr {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        border: 0;
-        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    .mdui-theme-accent-blue .mdui-typo a {
+        color: #ff4081;
+    }
+    
+    .mdui-theme-accent-blue .mdui-typo a::before {
+        background-color: #ff4081;
+    }
+    
+    .mdui-theme-accent-blue .mdui-color-theme-accent {
+        background-color: #ff4081!important;
+        color: #fff!important;
     }
 </style>
-
-<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
-
-<!-- <script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script> -->
-<!-- DEMO JS -->
-<!--<script src="media/scripts/index.js"></script>-->
-
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+        <link rel="stylesheet" href="https://qiumu-blog.vercel.app/media/css/github-gist.min.css">
+        <link rel="stylesheet" href="https://qiumu-blog.vercel.app/media/css/railscasts.min.css">
 </head>
-<body>
-<div class="main gt-bg-theme-color-first">
-    <nav class="navbar navbar-expand-lg">
-    <div class="navbar-brand">
-        <img class="user-avatar" src="/images/avatar.png" alt="头像">
-        <div class="site-name gt-c-content-color-first">
-            秋木小站
+
+<body id="post" class="mdui-appbar-with-toolbar mdui-theme-primary-blue-grey mdui-theme-accent-blue mdui-theme-layout-dark">
+    <header role="banner">
+    <div class="mdui-appbar mdui-appbar-fixed mdui-appbar-scroll-hide mdui-shadow-0">
+        <div class="mdui-toolbar">
+            <div class="mdui-toolbar-spacer"></div>
+            <button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '深色样式切换', position: 'left'}" id="DarkStyle"><i class="mdui-icon material-icons">brightness_4</i></button>
         </div>
     </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="changeNavbar">
-        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="navbar-nav mr-auto" style="text-align: center">
+</header>
+
+<nav id="drawer" class="mdui-drawer mdui-drawer-full-height mdui-drawer-close">
+    <ul class="mdui-list">
+        
             
-            <div class="nav-item">
-                
-                <a href="/" class="menu gt-a-link">
-                    首页
-                </a>
-                
-            </div>
-            
-            <div class="nav-item">
-                
-                <a href="/archives" class="menu gt-a-link">
-                    归档
-                </a>
-                
-            </div>
-            
-            <div class="nav-item">
-                
-                <a href="/tags" class="menu gt-a-link">
-                    标签
-                </a>
-                
-            </div>
-            
-            <div class="nav-item">
-                
-                <a href="/post/about" class="menu gt-a-link">
-                    关于
-                </a>
-                
-            </div>
-            
-        </div>
-        <div style="text-align: center">
-            <form id="gridea-search-form" style="position: relative" data-update="1633230801403"
-                action="/search/">
-                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
-                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
-            </form>
-        </div>
-    </div>
-</nav>
-<script>
-    /* 移动端导航栏展开/收起切换 */
-    document.getElementById('changeNavbar').onclick = () => {
-        var element = document.getElementById('navbarSupportedContent');
-        if (element.style.display === 'none' || element.style.display === '') {
-            element.style.display = 'block';
-        } else {
-            element.style.display = 'none';
-        }
-    }
-</script>
-    <div class="post-container">
-        <div class="post-detail gt-bg-theme-color-second">
-            <article class="gt-post-content">
-                <h2 class="post-title">
-                    分享-戒色笔记与思考-未知
-                </h2>
-                <div class="post-info">
-                    <time class="post-time gt-c-content-color-first">
-                        · 2021 ·
-                    </time>
+                    <a href="/" class="menu">
+                        <li class="mdui-list-item mdui-ripple">
+                            首页
+                        </li>
+                    </a>
                     
-                </div>
-                <div class="post-content">
-                    <p>1.如果你凛然一觉，念头尚未消失，就说明你断念还不够火候。<br>
+                        
+            
+                    <a href="/archives" class="menu">
+                        <li class="mdui-list-item mdui-ripple">
+                            归档
+                        </li>
+                    </a>
+                    
+                        
+            
+                    <a href="/tags" class="menu">
+                        <li class="mdui-list-item mdui-ripple">
+                            标签
+                        </li>
+                    </a>
+                    
+                        
+            
+                    <a href="/post/about" class="menu">
+                        <li class="mdui-list-item mdui-ripple">
+                            关于
+                        </li>
+                    </a>
+                    
+                        
+                            <a href="https://github.com/CPlayer-CN/gridea-theme-cplayer-material" class="spread">
+                                <li class="mdui-list-item mdui-ripple">主题主页</li>
+                            </a>
+    </ul>
+</nav>
+
+        <main class="mdui-container mdui-typo mdui-m-t-2">
+            <section class="mdui-card">
+                
+                        <div class="mdui-card-primary">
+                            <div class="mdui-card-primary-title">
+                                分享-戒色笔记与思考-未知
+                            </div>
+                            <div class="mdui-card-primary-subtitle">发布于
+                                2021
+                                    
+                            </div>
+                        </div>
+                        <div class="mdui-card-content">
+                            <p>1.如果你凛然一觉，念头尚未消失，就说明你断念还不够火候。<br>
 解析：如果你曾为戒色文章遍寻天下，各种日课一日不落，各种注意事项早已烂熟于心，至今却仍未戒色成功，还在破戒怪圈里不断徘徊，那么十有八九就是你断念还不过关。很多戒友就是如此，他们对戒色文章涉猎极广，各种情况都早已总结在日记里了，最后却还是战败，沦为了戒油子，最重要的原因还是断念水平还不过关。断念是戒色绕不开的话题，戒油子们却妄想通过提高觉悟来弥补这一方面的缺陷，最终的结果自然不言而喻。但经过这么久的沉淀，他们的断念水平也差不到哪去，往往是中规中矩的，偶尔实战还有几次亮眼的表现，但如果遇到大考，表面上似乎闲庭信步，与心魔打地有来有回，内心里却是不断挣扎。而心魔又对各种让我们破戒的奇技淫巧信手拈来，它看你没法一击必杀，便开始准备就地扎营，盖房种田，打算跟戒油子们来一场拉锯战。而戒油子们或许在短期的交战里还算可以兵来将挡水来土掩，可当心魔跟他们玩消耗时便会手足无措了，往往是抵抗一两天，油子精英们可能更长点，一周吧，他们认为心魔的攻势迟早会下去的，只要硬挺，最后便可以保住性命了，可结果往往不随人愿，他们发现这似乎是一场没有尽头的战争，心魔似乎越杀越多，而且自己的内心也越来越焦躁不安，最后在一次次粉红色的枪林弹雨中走位失误，被一颗自己没察觉到的子弹带走了肾精（往往引起他们破戒的不是直接的YY，而是被一种微如秋毫的念头给劫持了，这个念头的出现甚至过程他们都没有察觉到，只是以为自己在践行自己的思想，而恰恰这时他们的行为是不受思想控制的，也不是受心魔驱使，而是受欲望支配后的本能反应）。他们压根没注意到，心魔之所以能够如此长时间闹腾，原因就是他们的断念还不够快，甚至还残存贪恋（这会让心魔得以在一次又一次进攻时不断成长，真正的断念应该是像盖帽一样干脆利落，你一个迟疑，对方的球就已经飞过了你的头顶了，这个要好好体会）。其实他们也明白贪恋是要不得的，可每次念头一上来，他们最先想到的便是偷偷爽一下，然后才反应过来补上一刀，可是往往这时候心魔已经看到了你的破绽，你的贪恋为他们提供了几天的食粮，他们这一慢，可就导致了之后几天的鏖战。其实要解决这种情况也是易如反掌，那就是重视断念，看每一篇戒色文章都要有意识地重视断念的部分，这可是精华中的精华啊，然后多加练习，平时就可以拿负面念头来练手，如果你连负面念头都对抗不了，就别谈更加强大的心魔了，再者就是一定要注意自己的贪恋，一定要争取在贪恋起来之前就灭掉念头，否则，等它出来后，等待你的就是苦战了。</p>
 <p>2.不要被心魔偷偷上了高地。<br>
 解析：这一点其实就是上面所说的“往往引起他们破戒的不是直接的YY，而是被一种微如秋毫的念头给劫持了，这个念头的出现甚至过程他们都没有察觉到，只是以为自己在践行自己的思想，而恰恰这时他们的行为是不受思想控制的，也不是受心魔驱使，而是受欲望支配后的本能反应”，心魔会在拉锯战中通过不断进攻你来瓦解你的防守，一旦立场略微有些动摇，他们便会从这个漏洞悄悄“溜”进去，然后偷偷取代你的地位，通常的表现便是心魔在一次短兵相接的战斗中，不断的侵扰让你感觉到抵抗是痛苦的，而SY是舒服的，然后这时候再将一种极其细微却又阴狠毒辣的念头注入到你的大脑中，之所以说它极其细微，是因为你在抗争中很可能没办法发现这种念头（主要原因还是觉察力不够强），然后让它在最舒适的环境（立场动摇）中以最得心应手的方式输出自己的观念，“抵抗如此痛苦，还不如破戒”、“去找找H吧，找不到就不看了”等等类似念头，而这种念头往往不是通过直接劝诱，而是通过一种下意识的本能反应，它不需要让你的思维去承认它，这太容易被你断掉了，所以它会直接引导你的身体去打破自己的一条条底线，然后破戒，这也就是先贤所说的：“一念稍疏，陷溺难返。”但要解决的方式也很简单，万变不离其宗，那就是加强自己的觉察力，勤练断念，功夫到了自然可以看破一切潜藏在暗处的邪念。3.有人200天看黄破戒，有人400天情绪破戒，你打算什么时候破戒？ 有人一年战战兢兢，有人五年如履薄冰，你又打算怎么做？</p>
@@ -133,56 +116,40 @@
 为了摆脱这种行为，我建议大家在看戒色文章前，好好看下标题，弄明白它大概要讲什么，然后再开始学习，期间要对标题所对应的内容多加注意，因为作者既然写了这个标题，那么代表这部分内容会是作者的精讲内容，字里行间往往藏着作者百经沙场得出来的经验，而这些经验，一不小心，便可以打通你的任督二脉，让你的觉悟飞升。当然，有一部分是无论如何都不可以忽略的，那就是关于断念的内容，这是戒色的根基，一定要好好看，每个人的观点大致是一样的，但是每个人的表达方式都有所不同，每个人的接受程度不同，也许某一个作者的观点刚好就能刺激到你的神经了呢？ 最后看完戒色文章，要好好回忆下自己看了这篇文章，学到了什么，巩固了什么，好的地方要记下来，时常复习，这样才能让觉悟一步步完善，而不是像之前那样，看似完整，实则漏洞百出。</p>
 <p>这一期我把很多的点都融合在解析里了，大家可以多看几遍多去体悟下里面的内容，祝你们最后都能有所收获！</p>
 
-                </div>
-            </article>
-        </div>
+                        </div>
 
-        
-            <div class="next-post">
-                <div class="next gt-c-content-color-first">下一篇</div>
-                <a href="https://qiumu-blog.vercel.app/yzBFAart3/" class="post-title gt-a-link">
-                    分享-女性到了美国 为什么就不愿回国了？-未知
-                </a>
-            </div>
-        
+            </section>
 
-        
+            
+        </main>
 
-        
+        <nav class="mdui-container mdui-m-t-2 mdui-m-b-2">
+            <a href="https://qiumu-blog.vercel.app/aNcxc7dNa/" mdui-tooltip="{content: '上一篇', position: 'right'}"><button class="mdui-btn mdui-btn-icon mdui-btn-dense mdui-color-theme-accent mdui-ripple mdui-m-r-1"><i class="mdui-icon material-icons">arrow_back</i></button>分享-混血者的孤独-季斯拉夫•苏尔科夫</a>
+                
+                    
+                        <a href="https://qiumu-blog.vercel.app/yzBFAart3/" mdui-tooltip="{content: '下一篇', position: 'left'}" class="mdui-float-right">
+                            分享-女性到了美国 为什么就不愿回国了？-未知<button class="mdui-btn mdui-btn-icon mdui-btn-dense mdui-color-theme-accent mdui-ripple mdui-m-l-1"><i class="mdui-icon material-icons">arrow_forward</i></button></a>
+                        
+        </nav>
 
-        
-
-        <div class="site-footer gt-c-content-color-first">
-    <div class="slogan gt-c-content-color-first">&nbsp;</div>
-    <div class="social-container">
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-    </div>
-    <div class="footer-info">
-        &nbsp;
-    </div>
-    <div>
-        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
-                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://qiumu-blog.vercel.app/atom.xml" target="_blank">RSS</a></a>
-    </div>
+        <div class="mdui-m-t-2 mdui-text-center mdui-typo">
+    &nbsp;
 </div>
 
-<script>
-  hljs.highlightAll()
-</script>
+<script src="https://qiumu-blog.vercel.app/media/js/jquery.min.js"></script>
+<script src="https://qiumu-blog.vercel.app/media/js/mdui.min.js"></script>
+<script src="https://qiumu-blog.vercel.app/media/js/modify.js"></script>
+            <script src="https://qiumu-blog.vercel.app/media/js/highlight.min.js"></script>
+            <script src="https://qiumu-blog.vercel.app/media/js/lightense.min.js"></script>
+            <script>
+                // 初始化-高亮代码
+                hljs.initHighlightingOnLoad();
+                // 初始化-文章图片放大
+                window.addEventListener('load', function() {
+                    Lightense('#post .mdui-card-content img');
+                }, false);
+            </script>
 
-    </div>
-</div>
 </body>
+
 </html>

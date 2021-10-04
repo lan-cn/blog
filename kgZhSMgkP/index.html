@@ -1,123 +1,106 @@
-<html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+
 <head>
-    <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- 必要参数 -->
+<meta charset="utf-8" />
+<title>
+    评论-假如中美开战中国将何去何从-秋木 | 秋木
+</title>
+<meta name="keywords" content="关键词" />
+<meta name="description" content="简述" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable:no" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="shortcut icon" href="favicon.ico">
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/css/mdui.min.css" integrity="sha384-cLRrMq39HOZdvE0j6yBojO4+1PrHfB7a9l5qLcmRm/fiWXYY+CndJPmyu5FV/9Tw" crossorigin="anonymous" />
 
-<title>评论-假如中美开战中国将何去何从-秋木 | 秋木小站</title>
-
-<link rel="shortcut icon" href="https://qiumu-blog.vercel.app/favicon.ico?v=1633230801403">
-
-<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://qiumu-blog.vercel.app/styles/main.css">
-<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"> -->
-
+<!-- MDUI JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/js/mdui.min.js" integrity="sha384-gCMZcshYKOGRX9r6wbDrvF+TcCCswSHFucUzUPwka+Gr+uHgjlYvkABr95TCOz3A" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://qiumu-blog.vercel.app/media/css/modify.css">
 <style>
-    hr {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        border: 0;
-        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    .mdui-theme-accent-blue .mdui-typo a {
+        color: #ff4081;
+    }
+    
+    .mdui-theme-accent-blue .mdui-typo a::before {
+        background-color: #ff4081;
+    }
+    
+    .mdui-theme-accent-blue .mdui-color-theme-accent {
+        background-color: #ff4081!important;
+        color: #fff!important;
     }
 </style>
-
-<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
-
-<!-- <script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script> -->
-<!-- DEMO JS -->
-<!--<script src="media/scripts/index.js"></script>-->
-
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+        <link rel="stylesheet" href="https://qiumu-blog.vercel.app/media/css/github-gist.min.css">
+        <link rel="stylesheet" href="https://qiumu-blog.vercel.app/media/css/railscasts.min.css">
 </head>
-<body>
-<div class="main gt-bg-theme-color-first">
-    <nav class="navbar navbar-expand-lg">
-    <div class="navbar-brand">
-        <img class="user-avatar" src="/images/avatar.png" alt="头像">
-        <div class="site-name gt-c-content-color-first">
-            秋木小站
+
+<body id="post" class="mdui-appbar-with-toolbar mdui-theme-primary-blue-grey mdui-theme-accent-blue mdui-theme-layout-dark">
+    <header role="banner">
+    <div class="mdui-appbar mdui-appbar-fixed mdui-appbar-scroll-hide mdui-shadow-0">
+        <div class="mdui-toolbar">
+            <div class="mdui-toolbar-spacer"></div>
+            <button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '深色样式切换', position: 'left'}" id="DarkStyle"><i class="mdui-icon material-icons">brightness_4</i></button>
         </div>
     </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="changeNavbar">
-        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="navbar-nav mr-auto" style="text-align: center">
+</header>
+
+<nav id="drawer" class="mdui-drawer mdui-drawer-full-height mdui-drawer-close">
+    <ul class="mdui-list">
+        
             
-            <div class="nav-item">
-                
-                <a href="/" class="menu gt-a-link">
-                    首页
-                </a>
-                
-            </div>
-            
-            <div class="nav-item">
-                
-                <a href="/archives" class="menu gt-a-link">
-                    归档
-                </a>
-                
-            </div>
-            
-            <div class="nav-item">
-                
-                <a href="/tags" class="menu gt-a-link">
-                    标签
-                </a>
-                
-            </div>
-            
-            <div class="nav-item">
-                
-                <a href="/post/about" class="menu gt-a-link">
-                    关于
-                </a>
-                
-            </div>
-            
-        </div>
-        <div style="text-align: center">
-            <form id="gridea-search-form" style="position: relative" data-update="1633230801403"
-                action="/search/">
-                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
-                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
-            </form>
-        </div>
-    </div>
-</nav>
-<script>
-    /* 移动端导航栏展开/收起切换 */
-    document.getElementById('changeNavbar').onclick = () => {
-        var element = document.getElementById('navbarSupportedContent');
-        if (element.style.display === 'none' || element.style.display === '') {
-            element.style.display = 'block';
-        } else {
-            element.style.display = 'none';
-        }
-    }
-</script>
-    <div class="post-container">
-        <div class="post-detail gt-bg-theme-color-second">
-            <article class="gt-post-content">
-                <h2 class="post-title">
-                    评论-假如中美开战中国将何去何从-秋木
-                </h2>
-                <div class="post-info">
-                    <time class="post-time gt-c-content-color-first">
-                        · 2019 ·
-                    </time>
+                    <a href="/" class="menu">
+                        <li class="mdui-list-item mdui-ripple">
+                            首页
+                        </li>
+                    </a>
                     
-                </div>
-                <div class="post-content">
-                    <p>美国，众所周知是一个好战的国家，给他这份与他国开战的底气的毫无疑问是强大的军事实力，那么在当前的国际局势下，每一个人最想弄明白的问题就是中美军事实力对比，我不是军事家，但是我可以站在客观角度上看待中国和美国在军事方面的一些问题。<br>
+                        
+            
+                    <a href="/archives" class="menu">
+                        <li class="mdui-list-item mdui-ripple">
+                            归档
+                        </li>
+                    </a>
+                    
+                        
+            
+                    <a href="/tags" class="menu">
+                        <li class="mdui-list-item mdui-ripple">
+                            标签
+                        </li>
+                    </a>
+                    
+                        
+            
+                    <a href="/post/about" class="menu">
+                        <li class="mdui-list-item mdui-ripple">
+                            关于
+                        </li>
+                    </a>
+                    
+                        
+                            <a href="https://github.com/CPlayer-CN/gridea-theme-cplayer-material" class="spread">
+                                <li class="mdui-list-item mdui-ripple">主题主页</li>
+                            </a>
+    </ul>
+</nav>
+
+        <main class="mdui-container mdui-typo mdui-m-t-2">
+            <section class="mdui-card">
+                
+                        <div class="mdui-card-primary">
+                            <div class="mdui-card-primary-title">
+                                评论-假如中美开战中国将何去何从-秋木
+                            </div>
+                            <div class="mdui-card-primary-subtitle">发布于
+                                2019
+                                    
+                            </div>
+                        </div>
+                        <div class="mdui-card-content">
+                            <p>美国，众所周知是一个好战的国家，给他这份与他国开战的底气的毫无疑问是强大的军事实力，那么在当前的国际局势下，每一个人最想弄明白的问题就是中美军事实力对比，我不是军事家，但是我可以站在客观角度上看待中国和美国在军事方面的一些问题。<br>
 首先，美国的历史可以浓缩为一部血腥的战争史，这个国家的组成就是一些独立的资本，没有历史、文化，有的只是毫无意义的流行文化，反观中国，先祖上至百辈，这就导致了一个微不足道但是表现非常大的区别，美国总统川普在进行政治活动时经常出尔反尔，作出与之前想悖的事，并且不在乎人民的生死安危，这就体现出了文化的力量，中国人从小到大，耳濡目染，虽小时候不理解，但是人之初、性本善，己所不欲，勿施于人这些话已经成为了我们骨子里的一部分，而美国没有这样的文化，有些人可能会说，美国人无赖的性情会在国际争端中起到决定性作用，其实这种说法不对，中国文化的一大部分就是把作用在每一个人身上的每一天的小事化作为道理表达出来，作用在全世界每一个人身上都是一样的结果，就像川普不知道“水能载舟，亦能覆舟”这个道理，但是他草菅人命的后果就直接作用在他身上了，事实上，他当然不会用这句话来表达，但事实就是这样。到这里美国已经失去了一个国际优势。<br>
 再来谈我其实没有资格谈论的军事领域，朝鲜战争、越南战争、科索沃战争、两伊战争，美国上个世纪几乎一直在打仗，为什么呢？这要换个角度来看，古代，人们打仗是为了称王争霸，攻城掠地是为了自己的利益，在现代战争依然如此，老话讲：无利不起早，讲的就是这个理，但是美国的希望很好，出发点是赚钱、赚钱、顺便捞点国际地位，有一句话叫“资本主义的本质是人吃人”这句话其中的意义是资本主义是单向的财富流动，平民个人财产受到侵犯时，就不得不借贷，这就掉进了一个无底洞，那么到还钱时拿什么换呢？当然是继续借，政府向老百姓借，向别的国家借，老百姓向别的老百姓借，所以美国才会疯狂地在国家之间挑起争端，只是为了挣钱，但是美国的帐没算好，导致投入反差，这只是意外，但同时也显现出了美国的另一个弊病，就是资本控制了战争。<br>
 到这里美国已经有两个劣势了：文化浅薄、立场错误，来谈战争中的问题，据相关媒体报道，当今一名美国大兵全身的装备的总价大约要花费差不多2万美元，这里面就包含先进的制式步枪、夜视力装备、防弹衣以及无线电站等，而一枚最普遍的爱国者导弹要170万美元，在中国呢？一台装甲运兵车造价只有不到20万美元，一台坦克造价大约一百五十万美元，与一枚爱国者导弹相当，这就形成了鲜明的对比，美国的这些装备几乎是在往里砸钱，那是什么人让政府购买这些天价武器装备的呢？有一小撮人是所谓财团的代理人，在政府中担任重要职位（例如基辛格），这些政府中的精英们和所谓“shadow government”左右着政府在购买武器时的决断，像刚被罢免的波音的高管、还有以前LMT的一些在政府中任职的人，曾经大力推荐政府购买以上公司的军工产品，而在中国这些都是解放军直属或国家的工厂制造，更不存在幕后势力暗箱操作，所以美国又迎来了第三个弱势了：战争成本高。<br>
@@ -125,49 +108,37 @@
 从另外两个角度来看中美战争，第一：美国不战而屈于人，也就是美国自行解体，或者是美国第二次内战，相比于中美直接开战，这两种可能性更加大，因为美国这几年前的外债越来越多，最后到达顶峰，债额冲破天花板时，只有两个结果，美国与大债主开展，之后一笔勾销，或者是美国解体，和平的消除债务。还有一种可能就是中美之间的核战争，这有点不切实际，但是不排除美国在与中国进行常规战争后美国进行核打击的可能，但是中国不会吃核武器的亏，一定会予以反击。<br>
 强国强军之路任重而道远，跻身世界前列还需人民努力。</p>
 
-                </div>
-            </article>
-        </div>
+                        </div>
 
-        
+            </section>
 
-        
+            
+        </main>
 
-        
+        <nav class="mdui-container mdui-m-t-2 mdui-m-b-2">
+            <a href="https://qiumu-blog.vercel.app/mei-guo-de-beng-kui/" mdui-tooltip="{content: '上一篇', position: 'right'}"><button class="mdui-btn mdui-btn-icon mdui-btn-dense mdui-color-theme-accent mdui-ripple mdui-m-r-1"><i class="mdui-icon material-icons">arrow_back</i></button>评论-美国的崩溃-秋木</a>
+                
+                    
+        </nav>
 
-        
-
-        <div class="site-footer gt-c-content-color-first">
-    <div class="slogan gt-c-content-color-first">&nbsp;</div>
-    <div class="social-container">
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-    </div>
-    <div class="footer-info">
-        &nbsp;
-    </div>
-    <div>
-        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
-                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://qiumu-blog.vercel.app/atom.xml" target="_blank">RSS</a></a>
-    </div>
+        <div class="mdui-m-t-2 mdui-text-center mdui-typo">
+    &nbsp;
 </div>
 
-<script>
-  hljs.highlightAll()
-</script>
+<script src="https://qiumu-blog.vercel.app/media/js/jquery.min.js"></script>
+<script src="https://qiumu-blog.vercel.app/media/js/mdui.min.js"></script>
+<script src="https://qiumu-blog.vercel.app/media/js/modify.js"></script>
+            <script src="https://qiumu-blog.vercel.app/media/js/highlight.min.js"></script>
+            <script src="https://qiumu-blog.vercel.app/media/js/lightense.min.js"></script>
+            <script>
+                // 初始化-高亮代码
+                hljs.initHighlightingOnLoad();
+                // 初始化-文章图片放大
+                window.addEventListener('load', function() {
+                    Lightense('#post .mdui-card-content img');
+                }, false);
+            </script>
 
-    </div>
-</div>
 </body>
+
 </html>

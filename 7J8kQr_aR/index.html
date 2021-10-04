@@ -1,123 +1,106 @@
-<html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+
 <head>
-    <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- 必要参数 -->
+<meta charset="utf-8" />
+<title>
+    分享-怎样改进英式中文？-余光中 | 秋木
+</title>
+<meta name="keywords" content="关键词" />
+<meta name="description" content="简述" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable:no" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="shortcut icon" href="favicon.ico">
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/css/mdui.min.css" integrity="sha384-cLRrMq39HOZdvE0j6yBojO4+1PrHfB7a9l5qLcmRm/fiWXYY+CndJPmyu5FV/9Tw" crossorigin="anonymous" />
 
-<title>分享-怎样改进英式中文？-余光中 | 秋木小站</title>
-
-<link rel="shortcut icon" href="https://qiumu-blog.vercel.app/favicon.ico?v=1633230801403">
-
-<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://qiumu-blog.vercel.app/styles/main.css">
-<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"> -->
-
+<!-- MDUI JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/js/mdui.min.js" integrity="sha384-gCMZcshYKOGRX9r6wbDrvF+TcCCswSHFucUzUPwka+Gr+uHgjlYvkABr95TCOz3A" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://qiumu-blog.vercel.app/media/css/modify.css">
 <style>
-    hr {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        border: 0;
-        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    .mdui-theme-accent-blue .mdui-typo a {
+        color: #ff4081;
+    }
+    
+    .mdui-theme-accent-blue .mdui-typo a::before {
+        background-color: #ff4081;
+    }
+    
+    .mdui-theme-accent-blue .mdui-color-theme-accent {
+        background-color: #ff4081!important;
+        color: #fff!important;
     }
 </style>
-
-<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
-
-<!-- <script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script> -->
-<!-- DEMO JS -->
-<!--<script src="media/scripts/index.js"></script>-->
-
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+        <link rel="stylesheet" href="https://qiumu-blog.vercel.app/media/css/github-gist.min.css">
+        <link rel="stylesheet" href="https://qiumu-blog.vercel.app/media/css/railscasts.min.css">
 </head>
-<body>
-<div class="main gt-bg-theme-color-first">
-    <nav class="navbar navbar-expand-lg">
-    <div class="navbar-brand">
-        <img class="user-avatar" src="/images/avatar.png" alt="头像">
-        <div class="site-name gt-c-content-color-first">
-            秋木小站
+
+<body id="post" class="mdui-appbar-with-toolbar mdui-theme-primary-blue-grey mdui-theme-accent-blue mdui-theme-layout-dark">
+    <header role="banner">
+    <div class="mdui-appbar mdui-appbar-fixed mdui-appbar-scroll-hide mdui-shadow-0">
+        <div class="mdui-toolbar">
+            <div class="mdui-toolbar-spacer"></div>
+            <button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '深色样式切换', position: 'left'}" id="DarkStyle"><i class="mdui-icon material-icons">brightness_4</i></button>
         </div>
     </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="changeNavbar">
-        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="navbar-nav mr-auto" style="text-align: center">
+</header>
+
+<nav id="drawer" class="mdui-drawer mdui-drawer-full-height mdui-drawer-close">
+    <ul class="mdui-list">
+        
             
-            <div class="nav-item">
-                
-                <a href="/" class="menu gt-a-link">
-                    首页
-                </a>
-                
-            </div>
-            
-            <div class="nav-item">
-                
-                <a href="/archives" class="menu gt-a-link">
-                    归档
-                </a>
-                
-            </div>
-            
-            <div class="nav-item">
-                
-                <a href="/tags" class="menu gt-a-link">
-                    标签
-                </a>
-                
-            </div>
-            
-            <div class="nav-item">
-                
-                <a href="/post/about" class="menu gt-a-link">
-                    关于
-                </a>
-                
-            </div>
-            
-        </div>
-        <div style="text-align: center">
-            <form id="gridea-search-form" style="position: relative" data-update="1633230801403"
-                action="/search/">
-                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
-                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
-            </form>
-        </div>
-    </div>
-</nav>
-<script>
-    /* 移动端导航栏展开/收起切换 */
-    document.getElementById('changeNavbar').onclick = () => {
-        var element = document.getElementById('navbarSupportedContent');
-        if (element.style.display === 'none' || element.style.display === '') {
-            element.style.display = 'block';
-        } else {
-            element.style.display = 'none';
-        }
-    }
-</script>
-    <div class="post-container">
-        <div class="post-detail gt-bg-theme-color-second">
-            <article class="gt-post-content">
-                <h2 class="post-title">
-                    分享-怎样改进英式中文？-余光中
-                </h2>
-                <div class="post-info">
-                    <time class="post-time gt-c-content-color-first">
-                        · 2021 ·
-                    </time>
+                    <a href="/" class="menu">
+                        <li class="mdui-list-item mdui-ripple">
+                            首页
+                        </li>
+                    </a>
                     
-                </div>
-                <div class="post-content">
-                    <p>自五四新文化运动以来，七十年间，中文的变化极大。一方面，优秀的作家与学者笔下的白话文愈写愈成熟，无论表情达意或是分析事理，都能运用自如。另一方面，地道的中文，包括文言文与民间文学的白话文，和我们的关系日渐生疏，而英文的影响，无论来自直接的学习或是间接的潜移默化，则日渐显著，因此一般人笔下的白话文，西化的病态日渐严重。一般人从大众传媒学到的，不仅是流行的观念，还有那些观念赖以包装的种种说法；有时，那些说法连高明之士也抗拒不了。今日的中文虽因地区不同而互见差异，但共同的趋势都是繁琐与生硬，例如中文本来是说「因此」，现在不少人却爱说「基于这个原因」；本来是说「问题很多」，现在不少人却爱说「有很多问题存在」。对于这种化简为繁、以拙代巧的趋势，有心人如果不及时提出警告，我们的中文势必越变越差，而地道中文原有的那种美德，那种简洁而又灵活的语文生态，也必将面目全非。</p>
+                        
+            
+                    <a href="/archives" class="menu">
+                        <li class="mdui-list-item mdui-ripple">
+                            归档
+                        </li>
+                    </a>
+                    
+                        
+            
+                    <a href="/tags" class="menu">
+                        <li class="mdui-list-item mdui-ripple">
+                            标签
+                        </li>
+                    </a>
+                    
+                        
+            
+                    <a href="/post/about" class="menu">
+                        <li class="mdui-list-item mdui-ripple">
+                            关于
+                        </li>
+                    </a>
+                    
+                        
+                            <a href="https://github.com/CPlayer-CN/gridea-theme-cplayer-material" class="spread">
+                                <li class="mdui-list-item mdui-ripple">主题主页</li>
+                            </a>
+    </ul>
+</nav>
+
+        <main class="mdui-container mdui-typo mdui-m-t-2">
+            <section class="mdui-card">
+                
+                        <div class="mdui-card-primary">
+                            <div class="mdui-card-primary-title">
+                                分享-怎样改进英式中文？-余光中
+                            </div>
+                            <div class="mdui-card-primary-subtitle">发布于
+                                2021
+                                    
+                            </div>
+                        </div>
+                        <div class="mdui-card-content">
+                            <p>自五四新文化运动以来，七十年间，中文的变化极大。一方面，优秀的作家与学者笔下的白话文愈写愈成熟，无论表情达意或是分析事理，都能运用自如。另一方面，地道的中文，包括文言文与民间文学的白话文，和我们的关系日渐生疏，而英文的影响，无论来自直接的学习或是间接的潜移默化，则日渐显著，因此一般人笔下的白话文，西化的病态日渐严重。一般人从大众传媒学到的，不仅是流行的观念，还有那些观念赖以包装的种种说法；有时，那些说法连高明之士也抗拒不了。今日的中文虽因地区不同而互见差异，但共同的趋势都是繁琐与生硬，例如中文本来是说「因此」，现在不少人却爱说「基于这个原因」；本来是说「问题很多」，现在不少人却爱说「有很多问题存在」。对于这种化简为繁、以拙代巧的趋势，有心人如果不及时提出警告，我们的中文势必越变越差，而地道中文原有的那种美德，那种简洁而又灵活的语文生态，也必将面目全非。</p>
 <p>中文也有生态吗？当然有。措词简洁、句式灵活、声调铿锵，这些都是中文生命的常态。能顺着这样的生态，就能长保中文的健康。要是处处违拗这样的生态，久而久之，中文就会污染而淤塞，危机日渐迫近。</p>
 <p>目前中文的一大危机，是西化。我自己出身外文系，三十多岁时有志于中文创新的试验，自问并非语文的保守派。大凡有志于中文创作的人，都不会认为善用四字成语就是创作的能事。反之，写文章而处处仰赖成语，等于只会用古人的脑来想，只会用古人的嘴来说，绝非豪杰之士。但是，再反过来说，写文章而不会使用成语，问题就更大了。写一篇完全不带成语的文章，不见得不可能，但是很不容易；这样的文章要写得好，就更难能可贵。目前的情形是，许多人写中文，已经不会用成语，至少会用的成语有限，显得捉襟见肘。一般香港学生目前只会说「总的来说」，却似乎忘了「总而言之」。同样地，大概也不会说「一言难尽」，只会说「不是一句话就能够说得清楚的」。</p>
 <p>成语历千百年而犹存，成为文化的一部分。例如「千锤百炼」，字义对称，平仄协调，如果一定要说成「千炼百锤」，当然也可以，不过听来不顺，不像「千锤百炼」那样含有美学。同样，「朝秦暮楚」、「齐大非偶」、「乐不思蜀」等语之中，都含有中国的历史。成语的衰退正显示文言的淡忘，文化意识的萎缩。</p>
@@ -246,56 +229,40 @@ Le rose sono piccole.<br>
 <p>颇有前卫作家不以杞人之忧为然，认为坚持中文的常规，会妨碍作家的创新。这句话我十分同情，因为我也是「过来人」了。「语法岂为我辈而设哉！」诗人本有越界的自由。我在本文强调中文的生态，原为一般写作说法，无意规范文学的创作。前卫作家大可放心去追逐缪思，不用碍手碍脚，作语法之奴。</p>
 <p>不过有一点不可不知。中文发展了好几千年，从清通到高妙，自有千锤百炼的一套常态。谁要是不知常态为何物而贸然自诩为求变，其结果也许只是献拙，而非生巧。变化之妙，要有常态衬托才显得出来。一旦常态不存，余下的只是乱，不是变了。</p>
 
-                </div>
-            </article>
-        </div>
+                        </div>
 
-        
-            <div class="next-post">
-                <div class="next gt-c-content-color-first">下一篇</div>
-                <a href="https://qiumu-blog.vercel.app/08BJd0Pds/" class="post-title gt-a-link">
-                    分享-德隆兴衰史-未知
-                </a>
-            </div>
-        
+            </section>
 
-        
+            
+        </main>
 
-        
+        <nav class="mdui-container mdui-m-t-2 mdui-m-b-2">
+            <a href="https://qiumu-blog.vercel.app/-vk6bUCJu/" mdui-tooltip="{content: '上一篇', position: 'right'}"><button class="mdui-btn mdui-btn-icon mdui-btn-dense mdui-color-theme-accent mdui-ripple mdui-m-r-1"><i class="mdui-icon material-icons">arrow_back</i></button>分享-对他人贬低一个宗教信仰能否表达抗议或不满-未知</a>
+                
+                    
+                        <a href="https://qiumu-blog.vercel.app/08BJd0Pds/" mdui-tooltip="{content: '下一篇', position: 'left'}" class="mdui-float-right">
+                            分享-德隆兴衰史-未知<button class="mdui-btn mdui-btn-icon mdui-btn-dense mdui-color-theme-accent mdui-ripple mdui-m-l-1"><i class="mdui-icon material-icons">arrow_forward</i></button></a>
+                        
+        </nav>
 
-        
-
-        <div class="site-footer gt-c-content-color-first">
-    <div class="slogan gt-c-content-color-first">&nbsp;</div>
-    <div class="social-container">
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-    </div>
-    <div class="footer-info">
-        &nbsp;
-    </div>
-    <div>
-        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
-                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://qiumu-blog.vercel.app/atom.xml" target="_blank">RSS</a></a>
-    </div>
+        <div class="mdui-m-t-2 mdui-text-center mdui-typo">
+    &nbsp;
 </div>
 
-<script>
-  hljs.highlightAll()
-</script>
+<script src="https://qiumu-blog.vercel.app/media/js/jquery.min.js"></script>
+<script src="https://qiumu-blog.vercel.app/media/js/mdui.min.js"></script>
+<script src="https://qiumu-blog.vercel.app/media/js/modify.js"></script>
+            <script src="https://qiumu-blog.vercel.app/media/js/highlight.min.js"></script>
+            <script src="https://qiumu-blog.vercel.app/media/js/lightense.min.js"></script>
+            <script>
+                // 初始化-高亮代码
+                hljs.initHighlightingOnLoad();
+                // 初始化-文章图片放大
+                window.addEventListener('load', function() {
+                    Lightense('#post .mdui-card-content img');
+                }, false);
+            </script>
 
-    </div>
-</div>
 </body>
+
 </html>

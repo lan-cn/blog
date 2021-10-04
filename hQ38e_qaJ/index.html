@@ -1,123 +1,106 @@
-<html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+
 <head>
-    <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- 必要参数 -->
+<meta charset="utf-8" />
+<title>
+    分享-历史是如何让亲美变成仇美-洪振快 | 秋木
+</title>
+<meta name="keywords" content="关键词" />
+<meta name="description" content="简述" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable:no" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="shortcut icon" href="favicon.ico">
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/css/mdui.min.css" integrity="sha384-cLRrMq39HOZdvE0j6yBojO4+1PrHfB7a9l5qLcmRm/fiWXYY+CndJPmyu5FV/9Tw" crossorigin="anonymous" />
 
-<title>分享-历史是如何让亲美变成仇美-洪振快 | 秋木小站</title>
-
-<link rel="shortcut icon" href="https://qiumu-blog.vercel.app/favicon.ico?v=1633230801403">
-
-<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://qiumu-blog.vercel.app/styles/main.css">
-<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"> -->
-
+<!-- MDUI JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/js/mdui.min.js" integrity="sha384-gCMZcshYKOGRX9r6wbDrvF+TcCCswSHFucUzUPwka+Gr+uHgjlYvkABr95TCOz3A" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://qiumu-blog.vercel.app/media/css/modify.css">
 <style>
-    hr {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        border: 0;
-        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    .mdui-theme-accent-blue .mdui-typo a {
+        color: #ff4081;
+    }
+    
+    .mdui-theme-accent-blue .mdui-typo a::before {
+        background-color: #ff4081;
+    }
+    
+    .mdui-theme-accent-blue .mdui-color-theme-accent {
+        background-color: #ff4081!important;
+        color: #fff!important;
     }
 </style>
-
-<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
-
-<!-- <script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script> -->
-<!-- DEMO JS -->
-<!--<script src="media/scripts/index.js"></script>-->
-
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+        <link rel="stylesheet" href="https://qiumu-blog.vercel.app/media/css/github-gist.min.css">
+        <link rel="stylesheet" href="https://qiumu-blog.vercel.app/media/css/railscasts.min.css">
 </head>
-<body>
-<div class="main gt-bg-theme-color-first">
-    <nav class="navbar navbar-expand-lg">
-    <div class="navbar-brand">
-        <img class="user-avatar" src="/images/avatar.png" alt="头像">
-        <div class="site-name gt-c-content-color-first">
-            秋木小站
+
+<body id="post" class="mdui-appbar-with-toolbar mdui-theme-primary-blue-grey mdui-theme-accent-blue mdui-theme-layout-dark">
+    <header role="banner">
+    <div class="mdui-appbar mdui-appbar-fixed mdui-appbar-scroll-hide mdui-shadow-0">
+        <div class="mdui-toolbar">
+            <div class="mdui-toolbar-spacer"></div>
+            <button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '深色样式切换', position: 'left'}" id="DarkStyle"><i class="mdui-icon material-icons">brightness_4</i></button>
         </div>
     </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="changeNavbar">
-        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="navbar-nav mr-auto" style="text-align: center">
+</header>
+
+<nav id="drawer" class="mdui-drawer mdui-drawer-full-height mdui-drawer-close">
+    <ul class="mdui-list">
+        
             
-            <div class="nav-item">
-                
-                <a href="/" class="menu gt-a-link">
-                    首页
-                </a>
-                
-            </div>
-            
-            <div class="nav-item">
-                
-                <a href="/archives" class="menu gt-a-link">
-                    归档
-                </a>
-                
-            </div>
-            
-            <div class="nav-item">
-                
-                <a href="/tags" class="menu gt-a-link">
-                    标签
-                </a>
-                
-            </div>
-            
-            <div class="nav-item">
-                
-                <a href="/post/about" class="menu gt-a-link">
-                    关于
-                </a>
-                
-            </div>
-            
-        </div>
-        <div style="text-align: center">
-            <form id="gridea-search-form" style="position: relative" data-update="1633230801403"
-                action="/search/">
-                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
-                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
-            </form>
-        </div>
-    </div>
-</nav>
-<script>
-    /* 移动端导航栏展开/收起切换 */
-    document.getElementById('changeNavbar').onclick = () => {
-        var element = document.getElementById('navbarSupportedContent');
-        if (element.style.display === 'none' || element.style.display === '') {
-            element.style.display = 'block';
-        } else {
-            element.style.display = 'none';
-        }
-    }
-</script>
-    <div class="post-container">
-        <div class="post-detail gt-bg-theme-color-second">
-            <article class="gt-post-content">
-                <h2 class="post-title">
-                    分享-历史是如何让亲美变成仇美-洪振快
-                </h2>
-                <div class="post-info">
-                    <time class="post-time gt-c-content-color-first">
-                        · 2021 ·
-                    </time>
+                    <a href="/" class="menu">
+                        <li class="mdui-list-item mdui-ripple">
+                            首页
+                        </li>
+                    </a>
                     
-                </div>
-                <div class="post-content">
-                    <p>1943年，抗战艰难时期。7月4日是美国独立纪念日，中共党报《新华日报》发表社评，题名为《民主颂献给美国的独立纪念日》，文章中说：“从年幼的时候起，我们就觉得美国是个特别可亲的国家。我们相信，这该不单因为她没有强占过中国的土地，她也没对中国发动过侵略性的战争；更基本地说，中国人对美国的好感，是发源于从美国国民性中发散出来的民主的风度，博大的心怀……中国人感谢着”美麦”，感谢着”庚款”，感谢抗战以来的一切一切的寄赠与援助；但是，在这一切之前，之上，美国在民主政治上对落后的中国做了一个示范的先驱，教育了中国人学习华盛顿、学习林肯，学习杰弗逊，使我们懂得了建立一个民主自由的中国需要大胆、公正、诚实……我们相信，这才是使中美两大民族不论在战时，在战后，一定能够永远地亲密合作的最基本的成因。”</p>
+                        
+            
+                    <a href="/archives" class="menu">
+                        <li class="mdui-list-item mdui-ripple">
+                            归档
+                        </li>
+                    </a>
+                    
+                        
+            
+                    <a href="/tags" class="menu">
+                        <li class="mdui-list-item mdui-ripple">
+                            标签
+                        </li>
+                    </a>
+                    
+                        
+            
+                    <a href="/post/about" class="menu">
+                        <li class="mdui-list-item mdui-ripple">
+                            关于
+                        </li>
+                    </a>
+                    
+                        
+                            <a href="https://github.com/CPlayer-CN/gridea-theme-cplayer-material" class="spread">
+                                <li class="mdui-list-item mdui-ripple">主题主页</li>
+                            </a>
+    </ul>
+</nav>
+
+        <main class="mdui-container mdui-typo mdui-m-t-2">
+            <section class="mdui-card">
+                
+                        <div class="mdui-card-primary">
+                            <div class="mdui-card-primary-title">
+                                分享-历史是如何让亲美变成仇美-洪振快
+                            </div>
+                            <div class="mdui-card-primary-subtitle">发布于
+                                2021
+                                    
+                            </div>
+                        </div>
+                        <div class="mdui-card-content">
+                            <p>1943年，抗战艰难时期。7月4日是美国独立纪念日，中共党报《新华日报》发表社评，题名为《民主颂献给美国的独立纪念日》，文章中说：“从年幼的时候起，我们就觉得美国是个特别可亲的国家。我们相信，这该不单因为她没有强占过中国的土地，她也没对中国发动过侵略性的战争；更基本地说，中国人对美国的好感，是发源于从美国国民性中发散出来的民主的风度，博大的心怀……中国人感谢着”美麦”，感谢着”庚款”，感谢抗战以来的一切一切的寄赠与援助；但是，在这一切之前，之上，美国在民主政治上对落后的中国做了一个示范的先驱，教育了中国人学习华盛顿、学习林肯，学习杰弗逊，使我们懂得了建立一个民主自由的中国需要大胆、公正、诚实……我们相信，这才是使中美两大民族不论在战时，在战后，一定能够永远地亲密合作的最基本的成因。”</p>
 <p>客观地说，假如没有美国，中国的抗日战争能否胜利，恐怕是个未知数，至少，抗战不会八年就能胜利。对于抗战期间美国对中国的实际援助与贡献，当时中国国内各阶层对美国普遍都有好感。《新华日报》的文章是给国内各阶层尤其是知识分子看的，这篇评论文章显然能赢得读者的心。储安平后来在一篇文章中写道：“在战争时期，中国人对于美国都怀有一种广泛的好感。这种感情，包含着感激和敬佩两种成分</p>
 <p>在战争中，美国援助我们，鼓励我们，支持我们；除了在日后发觉的雅尔塔会议一次以外，美国没有背负过我们。我们赖有美国的支持和援助，乃得咬紧牙关，撑过最艰苦最黑暗的日子，以期获取最后的胜利。……中国人感激美国，器重美国，甚至崇拜美国！这种广泛普遍的友情，在国际历史中亦不多见。”这个看法在当时的知识阶层中应该具有普遍性。</p>
 <p>因此，到抗战结束时，中美处于历史上的蜜月期，包括中共，对美国也很有好感。还有美国的档案揭示，当时美国想在远东扶持中国成为世界大国，作为其盟国，扼制日本，牵制苏联，维持远东和平秩序。美国的设想是在中国搞美国式的民主，希望国民党和共产党竞争，就像美国的民主党和共和党的角色一样，为此主张国共合作建立民主联合政府。对此，延安是欢迎的，毛泽东也是兴奋的，故而在1945年4月24日的中共七大上做了《论联合政府》的政治报告，提出要自由选举产生正式的联合政府。</p>
@@ -136,56 +119,40 @@
 <p>“三视”教育运动所形成的观念，也在潜移默化地影响中国人。1951年7月1日朝鲜停战谈判消息传到北京后，“很多群众对媒体中称李奇微为”将军”、为”联合国军总司令”甚为不满”，因为据“三视”教育中接受的观念，李奇微乃是美帝国主义的代表，又怎能尊称其为将军呢？新闻稿件和发言稿中，到处都是匪类、帝国主义、恶魔、法西斯等“刺激性的词语”，1952年5月周恩来曾指示要“避免或少用不必要的刺激性语句”。直到1972年，中国政府宣布尼克松访华的消息，中国的普通群众“在感情上一时无法接受”，当他们在报刊上看到毛主席与“美帝国主义头子”尼克松“握手言和”的时候，他们普遍感到惊愕，以致目瞪口呆。</p>
 <p>抗美援朝中的政治动员是成功的。从此以后，仇美心理影响了几代中国人（大陆）。直到现在，很多人仍然不清楚，他的心理是历史塑造的，而不是基于对现实美国的理性、客观认知。正如同美国人对共产党治下的中国不理解而对中国人存有偏见一样，许多中国人因历史塑造的仇美心理及对现实世界的认知视角出现偏差，而对美国存有偏见。客观、理性地认识世界，是理性的社会心态形成的基础，也是社会平稳转型的前提。然而，由于历史的原因，客观、理性的社会心态的形成并不容易。</p>
 
-                </div>
-            </article>
-        </div>
+                        </div>
 
-        
-            <div class="next-post">
-                <div class="next gt-c-content-color-first">下一篇</div>
-                <a href="https://qiumu-blog.vercel.app/z9oQ6JKz4/" class="post-title gt-a-link">
-                    评论-平民经济动向：姗姗来迟的消费主义-秋木
-                </a>
-            </div>
-        
+            </section>
 
-        
+            
+        </main>
 
-        
+        <nav class="mdui-container mdui-m-t-2 mdui-m-b-2">
+            <a href="https://qiumu-blog.vercel.app/yzBFAart3/" mdui-tooltip="{content: '上一篇', position: 'right'}"><button class="mdui-btn mdui-btn-icon mdui-btn-dense mdui-color-theme-accent mdui-ripple mdui-m-r-1"><i class="mdui-icon material-icons">arrow_back</i></button>分享-女性到了美国 为什么就不愿回国了？-未知</a>
+                
+                    
+                        <a href="https://qiumu-blog.vercel.app/z9oQ6JKz4/" mdui-tooltip="{content: '下一篇', position: 'left'}" class="mdui-float-right">
+                            评论-平民经济动向：姗姗来迟的消费主义-秋木<button class="mdui-btn mdui-btn-icon mdui-btn-dense mdui-color-theme-accent mdui-ripple mdui-m-l-1"><i class="mdui-icon material-icons">arrow_forward</i></button></a>
+                        
+        </nav>
 
-        
-
-        <div class="site-footer gt-c-content-color-first">
-    <div class="slogan gt-c-content-color-first">&nbsp;</div>
-    <div class="social-container">
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-    </div>
-    <div class="footer-info">
-        &nbsp;
-    </div>
-    <div>
-        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
-                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://qiumu-blog.vercel.app/atom.xml" target="_blank">RSS</a></a>
-    </div>
+        <div class="mdui-m-t-2 mdui-text-center mdui-typo">
+    &nbsp;
 </div>
 
-<script>
-  hljs.highlightAll()
-</script>
+<script src="https://qiumu-blog.vercel.app/media/js/jquery.min.js"></script>
+<script src="https://qiumu-blog.vercel.app/media/js/mdui.min.js"></script>
+<script src="https://qiumu-blog.vercel.app/media/js/modify.js"></script>
+            <script src="https://qiumu-blog.vercel.app/media/js/highlight.min.js"></script>
+            <script src="https://qiumu-blog.vercel.app/media/js/lightense.min.js"></script>
+            <script>
+                // 初始化-高亮代码
+                hljs.initHighlightingOnLoad();
+                // 初始化-文章图片放大
+                window.addEventListener('load', function() {
+                    Lightense('#post .mdui-card-content img');
+                }, false);
+            </script>
 
-    </div>
-</div>
 </body>
+
 </html>
