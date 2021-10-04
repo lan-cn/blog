@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://qiumu-blog.vercel.app</id>
     <title>秋木</title>
-    <updated>2021-10-04T06:55:45.868Z</updated>
+    <updated>2021-10-04T07:38:11.601Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://qiumu-blog.vercel.app"/>
     <link rel="self" href="https://qiumu-blog.vercel.app/atom.xml"/>
@@ -10,6 +10,40 @@
     <logo>https://qiumu-blog.vercel.app/images/avatar.png</logo>
     <icon>https://qiumu-blog.vercel.app/favicon.ico</icon>
     <rights>All rights reserved 2021, 秋木</rights>
+    <entry>
+        <title type="html"><![CDATA[分享-習近平陝西行視察軍區]]></title>
+        <id>https://qiumu-blog.vercel.app/1wStRcJ2A/</id>
+        <link href="https://qiumu-blog.vercel.app/1wStRcJ2A/">
+        </link>
+        <updated>2021-10-04T07:37:41.000Z</updated>
+        <content type="html"><![CDATA[<p>中共總書記習近平近日離開北京，前往陝西，期間除造訪共產黨革命遺址、出席全運會開幕式外，15日還到解放軍「駐陝西部隊某基地」視察，他強調要聚焦備戰打仗，加快創新發展，全面提升履行使命任務能力，要求官兵「為建設世界一流軍隊、建設航天強國作出更大貢獻。」</p>
+<p>據央視網報導，習近平在聽取簡報後，向陝西基地的官兵指出，要貫徹新時代黨的強軍思想，貫徹新時代軍事戰略方針，聚焦備戰打仗，加快創新發展，全面提升履行使命任務能力。</p>
+<p>習近平接著肯定，該基地長期以來，為大陸航天事業發展發揮的重要作用，提出官兵要適應大陸航天發射密度加大、要求提高的實際情況，優化組織模式，創新測控技術和手段，確保測控精準可靠、圓滿成功等要求。</p>
+<p>習近平說，太空資產是國家戰略資產，要全面加強防護力量建設，提高容災備份、抗毀生存、訊息防護能力；要加強太空交通管理，確保太空系統穩定有序運行；要展開太空安全國際合作，提高太空危機管控和綜合治理效能。</p>
+<p>大陸第14屆全運會15日在陝西省西安市開幕，習近平於13日起前往陝西榆林視察能源產業、學校、楊家溝的中共革命舊址，14日則前往父親習仲勳與母親齊心的相識結婚之地綏德，15日出席全運會開幕式，並到解放軍駐陝西部隊基地視察。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[分享-Rendering of Intel ARC Alchemist]]></title>
+        <id>https://qiumu-blog.vercel.app/nEsZHlyF4/</id>
+        <link href="https://qiumu-blog.vercel.app/nEsZHlyF4/">
+        </link>
+        <updated>2021-10-04T07:27:16.000Z</updated>
+        <content type="html"><![CDATA[<p>The main renders of Intel’s ARC Alchemist reference illustrations cards have been envisioned in the most recent break by Moore’s Law is Dead. The renders show us what Intel’s own reference configuration will resemble and a couple of goodies with respect to the dispatch of the work area ARC setup.</p>
+<p>Intel’s ARC Alchemist Gaming Reference Graphics Cards Pictured In Latest Renders<br>
+The Intel ARC Alchemist illustrations card reference plan for very good quality variations has been imagined on a few events previously. We saw a model break out by MLID back in April 2021 and Intel affirmed the plan in its ARC advertising effort in August. We additionally as of late came to know how Intel plans to mark its impending gaming illustrations card arrangement，favoring that here.</p>
+<p>Moore’s Law is Dead settled to request his companion to deliver activity from the reference designs card dependent on the data he knows from his sources. The resultant render is extremely definite and reveals insight into pretty much every part of the reference illustrations card, giving us a nitty gritty gander at what may be Intel’s first and own personal devoted plan for its first work area discrete gaming card.</p>
+<p>In the renders, we can see the card depends on a very good quality ARC Alchemist GPU, most likely the DG2-512 (Xe-HPG) chip which resolves the higher class of Alchemist designs cards. The card arrives in double space and double fan plan. Each fan consolidates a 9-sharp edge fan plan and there additionally is by all accounts RGB implanted around the fans giving a pleasant touch in blue. The cooler cover has a roundabout designing around the edges which gives an interesting touch to the card. There’s additionally the ‘Intel’ logo as an afterthought emphasize plate that is made out of acrylic and furthermore inserts RGB LEDs. The card shakes an enormous aluminum finned heatsink and MLID brings up the chance of a fume chamber-based cooling arrangement in the engine.</p>
+<p>Other than these, the card shakes a backplate that stretches out past the PCB. There are huge vents on the backplate through which the subsequent fan can vent air out. The card gets power through an 8+6 pin connector setup while show yields incorporate a solitary HDMI and triple DP ports. In the renders, we can just see the exterior of the card so we may need to sit tight for a PCB render for later on. However, in spite of that, Intel’s reference and first Gen ARC Alchemist configuration looks extraordinary, and credit to MLID and his companion for giving an early look at the plan, by and by!</p>
+<p>Intel Xe-HPG 512 EU ARC Alchemist Graphics Card<br>
+The top Alchemist 512 EU variation has only one setup recorded up until now and that uses the full bite the dust with 4096 centers, 256-cycle transport interface, and up to 16 GB GDDR6 memory highlighting a 16 Gbps clock however 18 Gbps can’t be precluded according to the talk.</p>
+<p>The Alchemist 512 EU chip is relied upon to quantify at around 396mm2 which makes it greater than the AMD RDNA 2 and NVIDIA Ampere contributions. The Alchemist – 512 GPU will come in the BGA-2660 bundle which measures 37.5mm x 43mm. NVIDIA’s Ampere GA104 estimates 392mm2 which implies that the leader Alchemist chip is equivalent in size while the Navi 22 GPU measures 336mm2 or around 60mm2 less. This isn’t the last kick the bucket size of the chip however it ought to be extremely close.</p>
+<p>NVIDIA packs in tensor centers and a lot greater RT/FP32 centers in its chips while AMD RDNA 2 chips pack a solitary beam gas pedal unit per CU and Infinity Cache. Intel will likewise have committed equipment locally available its Alchemist GPUs for Raytracing and AI-helped super-testing tech.</p>
+<p>The Xe-HPG Alchemist 512 EU chip is proposed to highlight tickers of around 2.2 – 2.5 GHz however we couldn’t say whether these are the normal clocks or the greatest lift clocks. How about we accept that it’s the maximum check speed and all things considered, the card would convey up to 18.5 TFLOPs FP32 register which is 40% more than the RX 6700 XT however 9% lower than the NVIDIA RTX 3070.</p>
+<p>In a theoretical proportion of execution, MLID states that the TFLOPs look bad for examination as execution scales distinctively separate to the design, not the FLOPs execution. The gaming illustrations card is basically expected to be quicker than the RX 6700 XT and RTX 3070 now however with work continuous on the driver suite, the presentation is relied upon to work on further.</p>
+<p>Likewise, it is expressed that Intel’s underlying TDP target was 225-250W yet that has been increased to around 275W at this point. We can expect a 300W variation with double 8-pin connectors as well assuming Intel needs to push its clocks significantly further. Regardless, we can anticipate that the final model should shake an 8+6 pin connector config. There’re additionally discusses a custom setup being worked upon by Intel’s AIB accomplices. The primary Intel ARC items are dispatching in Q1 2022.</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[分享-混血者的孤独]]></title>
         <id>https://qiumu-blog.vercel.app/aNcxc7dNa/</id>

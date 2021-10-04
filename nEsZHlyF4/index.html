@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <!-- 必要参数 -->
+<meta charset="utf-8" />
+<title>
+    分享-Rendering of Intel ARC Alchemist | 秋木
+</title>
+<meta name="keywords" content="关键词" />
+<meta name="description" content="简述" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable:no" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="shortcut icon" href="favicon.ico">
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/css/mdui.min.css" integrity="sha384-cLRrMq39HOZdvE0j6yBojO4+1PrHfB7a9l5qLcmRm/fiWXYY+CndJPmyu5FV/9Tw" crossorigin="anonymous" />
+
+<!-- MDUI JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/js/mdui.min.js" integrity="sha384-gCMZcshYKOGRX9r6wbDrvF+TcCCswSHFucUzUPwka+Gr+uHgjlYvkABr95TCOz3A" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://qiumu-blog.vercel.app/media/css/modify.css">
+<style>
+    .mdui-theme-accent-blue .mdui-typo a {
+        color: #ff4081;
+    }
+    
+    .mdui-theme-accent-blue .mdui-typo a::before {
+        background-color: #ff4081;
+    }
+    
+    .mdui-theme-accent-blue .mdui-color-theme-accent {
+        background-color: #ff4081!important;
+        color: #fff!important;
+    }
+    
+    .mdui-appbar-with-toolbar {
+        padding-top: 4px;
+    }
+</style>
+        <link rel="stylesheet" href="https://qiumu-blog.vercel.app/media/css/github-gist.min.css">
+        <link rel="stylesheet" href="https://qiumu-blog.vercel.app/media/css/railscasts.min.css">
+</head>
+
+<body id="post" class="mdui-appbar-with-toolbar  mdui-theme-accent-blue ">
+    <nav id="drawer" class="mdui-drawer mdui-drawer-full-height mdui-drawer-close">
+    <ul class="mdui-list">
+        
+            
+                    <a href="/" class="menu">
+                        <li class="mdui-list-item mdui-ripple">
+                            首页
+                        </li>
+                    </a>
+                    
+                        
+            
+                    <a href="/archives" class="menu">
+                        <li class="mdui-list-item mdui-ripple">
+                            归档
+                        </li>
+                    </a>
+                    
+                        
+            
+                    <a href="/tags" class="menu">
+                        <li class="mdui-list-item mdui-ripple">
+                            标签
+                        </li>
+                    </a>
+                    
+                        
+            
+                    <a href="/post/about" class="menu">
+                        <li class="mdui-list-item mdui-ripple">
+                            关于
+                        </li>
+                    </a>
+                    
+                        
+                            <a href="https://github.com/CPlayer-CN/gridea-theme-cplayer-material" class="spread">
+                                <li class="mdui-list-item mdui-ripple">主题主页</li>
+                            </a>
+    </ul>
+</nav>
+
+        <main class="mdui-container mdui-typo mdui-m-t-2">
+            <section class="mdui-card">
+                
+                        <div class="mdui-card-primary">
+                            <div class="mdui-card-primary-title">
+                                分享-Rendering of Intel ARC Alchemist
+                            </div>
+                            <div class="mdui-card-primary-subtitle">发布于
+                                2021
+                                    
+                            </div>
+                        </div>
+                        <div class="mdui-card-content">
+                            <p>The main renders of Intel’s ARC Alchemist reference illustrations cards have been envisioned in the most recent break by Moore’s Law is Dead. The renders show us what Intel’s own reference configuration will resemble and a couple of goodies with respect to the dispatch of the work area ARC setup.</p>
+<p>Intel’s ARC Alchemist Gaming Reference Graphics Cards Pictured In Latest Renders<br>
+The Intel ARC Alchemist illustrations card reference plan for very good quality variations has been imagined on a few events previously. We saw a model break out by MLID back in April 2021 and Intel affirmed the plan in its ARC advertising effort in August. We additionally as of late came to know how Intel plans to mark its impending gaming illustrations card arrangement，favoring that here.</p>
+<p>Moore’s Law is Dead settled to request his companion to deliver activity from the reference designs card dependent on the data he knows from his sources. The resultant render is extremely definite and reveals insight into pretty much every part of the reference illustrations card, giving us a nitty gritty gander at what may be Intel’s first and own personal devoted plan for its first work area discrete gaming card.</p>
+<p>In the renders, we can see the card depends on a very good quality ARC Alchemist GPU, most likely the DG2-512 (Xe-HPG) chip which resolves the higher class of Alchemist designs cards. The card arrives in double space and double fan plan. Each fan consolidates a 9-sharp edge fan plan and there additionally is by all accounts RGB implanted around the fans giving a pleasant touch in blue. The cooler cover has a roundabout designing around the edges which gives an interesting touch to the card. There’s additionally the ‘Intel’ logo as an afterthought emphasize plate that is made out of acrylic and furthermore inserts RGB LEDs. The card shakes an enormous aluminum finned heatsink and MLID brings up the chance of a fume chamber-based cooling arrangement in the engine.</p>
+<p>Other than these, the card shakes a backplate that stretches out past the PCB. There are huge vents on the backplate through which the subsequent fan can vent air out. The card gets power through an 8+6 pin connector setup while show yields incorporate a solitary HDMI and triple DP ports. In the renders, we can just see the exterior of the card so we may need to sit tight for a PCB render for later on. However, in spite of that, Intel’s reference and first Gen ARC Alchemist configuration looks extraordinary, and credit to MLID and his companion for giving an early look at the plan, by and by!</p>
+<p>Intel Xe-HPG 512 EU ARC Alchemist Graphics Card<br>
+The top Alchemist 512 EU variation has only one setup recorded up until now and that uses the full bite the dust with 4096 centers, 256-cycle transport interface, and up to 16 GB GDDR6 memory highlighting a 16 Gbps clock however 18 Gbps can’t be precluded according to the talk.</p>
+<p>The Alchemist 512 EU chip is relied upon to quantify at around 396mm2 which makes it greater than the AMD RDNA 2 and NVIDIA Ampere contributions. The Alchemist – 512 GPU will come in the BGA-2660 bundle which measures 37.5mm x 43mm. NVIDIA’s Ampere GA104 estimates 392mm2 which implies that the leader Alchemist chip is equivalent in size while the Navi 22 GPU measures 336mm2 or around 60mm2 less. This isn’t the last kick the bucket size of the chip however it ought to be extremely close.</p>
+<p>NVIDIA packs in tensor centers and a lot greater RT/FP32 centers in its chips while AMD RDNA 2 chips pack a solitary beam gas pedal unit per CU and Infinity Cache. Intel will likewise have committed equipment locally available its Alchemist GPUs for Raytracing and AI-helped super-testing tech.</p>
+<p>The Xe-HPG Alchemist 512 EU chip is proposed to highlight tickers of around 2.2 – 2.5 GHz however we couldn’t say whether these are the normal clocks or the greatest lift clocks. How about we accept that it’s the maximum check speed and all things considered, the card would convey up to 18.5 TFLOPs FP32 register which is 40% more than the RX 6700 XT however 9% lower than the NVIDIA RTX 3070.</p>
+<p>In a theoretical proportion of execution, MLID states that the TFLOPs look bad for examination as execution scales distinctively separate to the design, not the FLOPs execution. The gaming illustrations card is basically expected to be quicker than the RX 6700 XT and RTX 3070 now however with work continuous on the driver suite, the presentation is relied upon to work on further.</p>
+<p>Likewise, it is expressed that Intel’s underlying TDP target was 225-250W yet that has been increased to around 275W at this point. We can expect a 300W variation with double 8-pin connectors as well assuming Intel needs to push its clocks significantly further. Regardless, we can anticipate that the final model should shake an 8+6 pin connector config. There’re additionally discusses a custom setup being worked upon by Intel’s AIB accomplices. The primary Intel ARC items are dispatching in Q1 2022.</p>
+
+                        </div>
+
+            </section>
+
+            
+        </main>
+
+        <nav class="mdui-container mdui-m-t-2 mdui-m-b-2">
+            <a href="https://qiumu-blog.vercel.app/1wStRcJ2A/" mdui-tooltip="{content: '上一篇', position: 'right'}"><button class="mdui-btn mdui-btn-icon mdui-btn-dense mdui-color-theme-accent mdui-ripple mdui-m-r-1"><i class="mdui-icon material-icons">arrow_back</i></button>分享-習近平陝西行視察軍區</a>
+                
+                    
+                        <a href="https://qiumu-blog.vercel.app/aNcxc7dNa/" mdui-tooltip="{content: '下一篇', position: 'left'}" class="mdui-float-right">
+                            分享-混血者的孤独<button class="mdui-btn mdui-btn-icon mdui-btn-dense mdui-color-theme-accent mdui-ripple mdui-m-l-1"><i class="mdui-icon material-icons">arrow_forward</i></button></a>
+                        
+        </nav>
+
+        <div class="mdui-m-t-2 mdui-text-center mdui-typo">
+    &nbsp;
+</div>
+
+<script src="https://qiumu-blog.vercel.app/media/js/jquery.min.js"></script>
+<script src="https://qiumu-blog.vercel.app/media/js/mdui.min.js"></script>
+<script src="https://qiumu-blog.vercel.app/media/js/modify.js"></script>
+            <script src="https://qiumu-blog.vercel.app/media/js/highlight.min.js"></script>
+            <script src="https://qiumu-blog.vercel.app/media/js/lightense.min.js"></script>
+            <script>
+                // 初始化-高亮代码
+                hljs.initHighlightingOnLoad();
+                // 初始化-文章图片放大
+                window.addEventListener('load', function() {
+                    Lightense('#post .mdui-card-content img');
+                }, false);
+            </script>
+
+</body>
+
+</html>
